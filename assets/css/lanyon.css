@@ -51,6 +51,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+.socials {
+  float: none;
+  margin-right: 10px;
+  display: inline-block !important;
+}
+
 /*
  * Wrapper
  *
