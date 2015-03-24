@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   width: auto;
   box-sizing: none;
+  margin-left: 10px;
   display: inline-block !important;
 }
 
@@ -108,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
-  min-height: 1.25rem;
+  min-height: 3.75rem;
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
