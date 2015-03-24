@@ -51,11 +51,18 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+/*
+ * Custom hacks for hellstad blog
+ */
 .socials {
   float: left;
   width: auto;
   box-sizing: none;
   display: inline-block !important;
+}
+
+.title-container {
+  clear: left;
 }
 
 /*
@@ -71,7 +78,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-
 /*
  * Container
  *
@@ -79,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
-  clear: left;
   max-width: 28rem;
 }
 @media (min-width: 38em) {
