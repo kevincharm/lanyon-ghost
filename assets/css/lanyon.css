@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .socials {
-  float: none;
+  float: left;
   width: auto;
   box-sizing: none;
   display: inline-block !important;
@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
+  clear: left;
   max-width: 28rem;
 }
 @media (min-width: 38em) {
